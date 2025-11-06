@@ -40,7 +40,6 @@ def main():
     total_after_discount = total * (1 - discount)
     print(f"Discount applied: {discount*100:.0f}%")
     print(f"Total after discount: ${total_after_discount:.2f}")
- 
- 
+
 if __name__ == "__main__":
     main()
